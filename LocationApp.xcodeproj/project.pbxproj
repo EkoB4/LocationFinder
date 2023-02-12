@@ -14,6 +14,7 @@
 		F9CCB70C29985F1B00F952EE /* LocationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCB70B29985F1B00F952EE /* LocationAppTests.swift */; };
 		F9CCB71629985F1B00F952EE /* LocationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCB71529985F1B00F952EE /* LocationAppUITests.swift */; };
 		F9CCB71829985F1B00F952EE /* LocationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCB71729985F1B00F952EE /* LocationAppUITestsLaunchTests.swift */; };
+		F9CCB7292998A64700F952EE /* LiveLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CCB7282998A64700F952EE /* LiveLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F9CCB71129985F1B00F952EE /* LocationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CCB71529985F1B00F952EE /* LocationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAppUITests.swift; sourceTree = "<group>"; };
 		F9CCB71729985F1B00F952EE /* LocationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9CCB7282998A64700F952EE /* LiveLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		F9CCB6F929985F1A00F952EE /* LocationApp */ = {
 			isa = PBXGroup;
 			children = (
+				F9CCB7282998A64700F952EE /* LiveLocation.swift */,
 				F9CCB6FA29985F1A00F952EE /* LocationAppApp.swift */,
 				F9CCB6FC29985F1A00F952EE /* ContentView.swift */,
 				F9CCB6FE29985F1B00F952EE /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CCB7292998A64700F952EE /* LiveLocation.swift in Sources */,
 				F9CCB6FD29985F1A00F952EE /* ContentView.swift in Sources */,
 				F9CCB6FB29985F1A00F952EE /* LocationAppApp.swift in Sources */,
 			);
@@ -419,6 +423,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LocationApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This for testView";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +454,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LocationApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This for testView";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
